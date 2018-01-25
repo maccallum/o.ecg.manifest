@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
-			"architecture" : "x86",
+			"minor" : 3,
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -79,9 +79,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 153.0, 176.0, 20.0 ],
+					"patching_rect" : [ 92.0, 153.0, 203.0, 20.0 ],
 					"style" : "",
-					"text" : "poly~ i.bcast.poly 12 @target 0"
+					"text" : "poly~ o.ecg.bcast.poly 12 @target 0"
 				}
 
 			}
@@ -89,8 +89,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -98,8 +97,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -107,16 +105,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "i.bcast.poly.maxpat",
-				"bootpath" : "~/Development/CNMAT/Intersections2017/src",
+				"name" : "o.ecg.bcast.poly.maxpat",
+				"bootpath" : "~/Development/maccallum/o.ecg.manifest/src",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

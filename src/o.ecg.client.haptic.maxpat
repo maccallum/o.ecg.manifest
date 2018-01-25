@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
-			"architecture" : "x86",
+			"minor" : 3,
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 300.0, 79.0, 1688.0, 1057.0 ],
+		"rect" : [ 198.0, 79.0, 1688.0, 1057.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,14 +39,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-51",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1137.0, 654.0, 191.0, 30.0 ],
-					"presentation_rect" : [ 1137.0, 654.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1137.0, 654.0, 191.0, 42.0 ],
 					"style" : "",
-					"text" : "send the audio from i.ecg.client.audio to the transducer"
+					"text" : "send the audio from o..ecg.client.audio to the transducer"
 				}
 
 			}
@@ -58,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 822.0, 650.0, 191.0, 30.0 ],
-					"presentation_rect" : [ 822.0, 650.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "send the waveform to the transducer"
 				}
@@ -67,14 +65,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.0, 654.0, 191.0, 30.0 ],
-					"presentation_rect" : [ 488.0, 655.0, 0.0, 0.0 ],
+					"patching_rect" : [ 488.0, 654.0, 191.0, 42.0 ],
 					"style" : "",
-					"text" : "send the audio from i.ecg.client.audio to the transducer"
+					"text" : "send the audio from o.ecg.client.audio to the transducer"
 				}
 
 			}
@@ -86,7 +83,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 173.0, 650.0, 191.0, 30.0 ],
-					"presentation_rect" : [ 172.833313, 649.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "send the waveform to the transducer"
 				}
@@ -100,9 +96,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1059.833252, 368.5, 191.0, 54.0 ],
-					"presentation_rect" : [ 1059.833252, 368.5, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "delay the signal by some number of miliseconds. this is good for aligining it with the audio signal in i.ecg.client.audio"
+					"text" : "delay the signal by some number of miliseconds. this is good for aligining it with the audio signal in o.ecg.client.audio"
 				}
 
 			}
@@ -114,9 +109,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 410.833313, 368.5, 191.0, 54.0 ],
-					"presentation_rect" : [ 410.833313, 368.5, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "delay the signal by some number of miliseconds. this is good for aligining it with the audio signal in i.ecg.client.audio"
+					"text" : "delay the signal by some number of miliseconds. this is good for aligining it with the audio signal in o.ecg.client.audio"
 				}
 
 			}
@@ -128,7 +122,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 831.833313, 368.5, 191.0, 54.0 ],
-					"presentation_rect" : [ 832.833313, 369.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "low pass filter. set to 20 for smooth output that feels like a heart, set to 1000 for noisy output that feels, well, noisy"
 				}
@@ -142,7 +135,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 182.833313, 368.5, 191.0, 54.0 ],
-					"presentation_rect" : [ 294.199951, 389.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "low pass filter. set to 20 for smooth output that feels like a heart, set to 1000 for noisy output that feels, well, noisy"
 				}
@@ -155,7 +147,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1147.699951, 294.5, 191.0, 18.0 ],
-					"presentation_rect" : [ 1147.199951, 294.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "raw, noisy waveform"
 				}
@@ -168,7 +159,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1147.699951, 234.5, 191.0, 18.0 ],
-					"presentation_rect" : [ 1147.199951, 234.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "filtered, smooth waveform"
 				}
@@ -181,7 +171,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 934.5, 198.0, 191.0, 18.0 ],
-					"presentation_rect" : [ 934.0, 198.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "choose which waveform to haptify"
 				}
@@ -194,7 +183,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 499.199951, 294.5, 191.0, 18.0 ],
-					"presentation_rect" : [ 499.199951, 291.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "raw, noisy waveform"
 				}
@@ -207,7 +195,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 499.199951, 234.5, 191.0, 18.0 ],
-					"presentation_rect" : [ 498.0, 232.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "filtered, smooth waveform"
 				}
@@ -295,9 +282,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1108.5, 601.0, 186.0, 20.0 ],
+					"patching_rect" : [ 1108.5, 601.0, 190.0, 20.0 ],
 					"style" : "",
-					"text" : "receive~ from.i.ecg.client.audio/1"
+					"text" : "receive~ from.o.ecg.client.audio/1"
 				}
 
 			}
@@ -311,7 +298,7 @@
 					"id" : "obj-32",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "i.out.haptic.maxpat",
+					"name" : "o.ecg.out.haptic.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -78.0, -121.0 ],
@@ -328,9 +315,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 784.0, 569.0, 64.0, 20.0 ],
+					"patching_rect" : [ 784.0, 569.0, 91.0, 20.0 ],
 					"style" : "",
-					"text" : "i.filt.haptic"
+					"text" : "o.ecg.filt.haptic"
 				}
 
 			}
@@ -341,9 +328,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 784.0, 525.0, 64.0, 20.0 ],
+					"patching_rect" : [ 784.0, 525.0, 91.0, 20.0 ],
 					"style" : "",
-					"text" : "i.ctl.haptic"
+					"text" : "o.ecg.ctl.haptic"
 				}
 
 			}
@@ -414,8 +401,7 @@
 					"patching_rect" : [ 902.033264, 278.0, 246.0, 51.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 101, 99, 103, 47, 119, 97, 118, 101, 102, 111, 114, 109, 0, 0, 0, 44, 115, 0, 0, 47, 101, 99, 103, 47, 114, 97, 119, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 105, 110, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 97, 120, 0, 44, 100, 0, 0, 64, -113, -8, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 100,
-					"text" : "/ecg/waveform : \"/ecg/raw\",\n/ecgmin : 0.,\n/ecgmax : 1023.",
-					"textcolor" : [ 0.188, 0.188, 0.188, 1.0 ]
+					"text" : "/ecg/waveform : \"/ecg/raw\",\n/ecgmin : 0.,\n/ecgmax : 1023."
 				}
 
 			}
@@ -432,8 +418,7 @@
 					"patching_rect" : [ 886.199951, 218.0, 260.0, 51.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 101, 99, 103, 47, 119, 97, 118, 101, 102, 111, 114, 109, 0, 0, 0, 44, 115, 0, 0, 47, 101, 99, 103, 47, 102, 105, 108, 116, 101, 114, 101, 100, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 105, 110, 0, 44, 100, 0, 0, -64, 112, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 97, 120, 0, 44, 100, 0, 0, 64, 112, 0, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 104,
-					"text" : "/ecg/waveform : \"/ecg/filtered\",\n/ecgmin : -256.,\n/ecgmax : 256.",
-					"textcolor" : [ 0.188, 0.188, 0.188, 1.0 ]
+					"text" : "/ecg/waveform : \"/ecg/filtered\",\n/ecgmin : -256.,\n/ecgmax : 256."
 				}
 
 			}
@@ -570,9 +555,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 459.5, 601.0, 186.0, 20.0 ],
+					"patching_rect" : [ 459.5, 601.0, 190.0, 20.0 ],
 					"style" : "",
-					"text" : "receive~ from.i.ecg.client.audio/0"
+					"text" : "receive~ from.o.ecg.client.audio/0"
 				}
 
 			}
@@ -599,7 +584,7 @@
 					"id" : "obj-62",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "i.out.haptic.maxpat",
+					"name" : "o.ecg.out.haptic.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ -78.0, -121.0 ],
@@ -616,9 +601,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 135.0, 569.0, 64.0, 20.0 ],
+					"patching_rect" : [ 135.0, 569.0, 91.0, 20.0 ],
 					"style" : "",
-					"text" : "i.filt.haptic"
+					"text" : "o.ecg.filt.haptic"
 				}
 
 			}
@@ -629,9 +614,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 135.0, 525.0, 64.0, 20.0 ],
+					"patching_rect" : [ 135.0, 525.0, 91.0, 20.0 ],
 					"style" : "",
-					"text" : "i.ctl.haptic"
+					"text" : "o.ecg.ctl.haptic"
 				}
 
 			}
@@ -713,8 +698,7 @@
 					"patching_rect" : [ 253.033264, 278.0, 246.0, 51.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 101, 99, 103, 47, 119, 97, 118, 101, 102, 111, 114, 109, 0, 0, 0, 44, 115, 0, 0, 47, 101, 99, 103, 47, 114, 97, 119, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 105, 110, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 97, 120, 0, 44, 100, 0, 0, 64, -113, -8, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 100,
-					"text" : "/ecg/waveform : \"/ecg/raw\",\n/ecgmin : 0.,\n/ecgmax : 1023.",
-					"textcolor" : [ 0.188, 0.188, 0.188, 1.0 ]
+					"text" : "/ecg/waveform : \"/ecg/raw\",\n/ecgmin : 0.,\n/ecgmax : 1023."
 				}
 
 			}
@@ -743,8 +727,7 @@
 					"patching_rect" : [ 237.199936, 218.0, 260.0, 51.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 101, 99, 103, 47, 119, 97, 118, 101, 102, 111, 114, 109, 0, 0, 0, 44, 115, 0, 0, 47, 101, 99, 103, 47, 102, 105, 108, 116, 101, 114, 101, 100, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 105, 110, 0, 44, 100, 0, 0, -64, 112, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 99, 103, 109, 97, 120, 0, 44, 100, 0, 0, 64, 112, 0, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 104,
-					"text" : "/ecg/waveform : \"/ecg/filtered\",\n/ecgmin : -256.,\n/ecgmax : 256.",
-					"textcolor" : [ 0.188, 0.188, 0.188, 1.0 ]
+					"text" : "/ecg/waveform : \"/ecg/filtered\",\n/ecgmin : -256.,\n/ecgmax : 256."
 				}
 
 			}
@@ -802,8 +785,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -811,8 +792,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -820,8 +799,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -829,8 +807,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -838,8 +815,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -847,8 +822,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -856,8 +829,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -865,8 +836,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -874,8 +843,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -883,8 +850,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -892,8 +857,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -901,8 +864,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -910,8 +871,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-37", 1 ]
 				}
 
@@ -919,8 +879,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-37", 1 ]
 				}
 
@@ -928,8 +887,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -937,8 +895,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -946,8 +903,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -955,8 +910,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -964,8 +917,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -973,8 +924,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -982,8 +931,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -991,8 +938,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1000,8 +945,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -1009,8 +952,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1018,8 +959,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-47", 1 ]
 				}
 
@@ -1027,8 +966,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1036,8 +973,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -1045,8 +980,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1054,8 +987,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -1063,8 +994,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -1072,8 +1001,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -1081,8 +1008,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-98", 3 ]
 				}
 
@@ -1090,8 +1015,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-98", 2 ]
 				}
 
@@ -1099,8 +1022,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-98", 1 ]
 				}
 
@@ -1108,8 +1029,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-98", 0 ]
 				}
 
@@ -1117,28 +1036,29 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-99", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "i.ctl.haptic.maxpat",
-				"bootpath" : "~/Development/CNMAT/Intersections2017/src",
+				"name" : "o.ecg.ctl.haptic.maxpat",
+				"bootpath" : "~/Development/maccallum/o.ecg.manifest/src",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "i.filt.haptic.maxpat",
-				"bootpath" : "~/Development/CNMAT/Intersections2017/src",
+				"name" : "o.ecg.filt.haptic.maxpat",
+				"bootpath" : "~/Development/maccallum/o.ecg.manifest/src",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "i.out.haptic.maxpat",
-				"bootpath" : "~/Development/CNMAT/Intersections2017/src",
+				"name" : "o.ecg.out.haptic.maxpat",
+				"bootpath" : "~/Development/maccallum/o.ecg.manifest/src",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
