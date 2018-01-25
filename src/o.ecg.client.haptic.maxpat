@@ -1082,6 +1082,14 @@
 				"name" : "o.union.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "o.schedule~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.if.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"autosave" : 0
 	}
